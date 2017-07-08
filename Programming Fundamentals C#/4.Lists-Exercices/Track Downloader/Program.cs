@@ -36,8 +36,6 @@ namespace TrackDownloader
                     downloads.Add(files);
                 }
                     
-                
-
                 files = Console.ReadLine();
             }
             downloads.Sort();
