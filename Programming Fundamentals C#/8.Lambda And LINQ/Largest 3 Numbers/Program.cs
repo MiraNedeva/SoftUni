@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Read a list of real numbers and print largest 3 of them. If less than 3 numbers exit, print all of them.
+
 namespace Largest3Numbers
 {
     class Program
