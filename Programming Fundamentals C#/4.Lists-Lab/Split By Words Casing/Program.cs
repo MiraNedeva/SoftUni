@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Read a text, split it into words and distribute them into 3 lists.
+	Lower-case words like “programming”, “at” and “databases” – consist of lowercase letters only.
+	Upper-case words like “PHP”, “JS” and “SQL” – consist of uppercase letters only.
+	Mixed-case words like “C#”, “SoftUni” and “Java” – all others.
+Use the following separators between the words: , ; : . ! ( ) " ' \ / [ ] space
+Print the 3 lists */
+
 namespace SplitByWordsCasing
 {
     class Program
@@ -18,9 +25,6 @@ namespace SplitByWordsCasing
             List<string> LowCaseWords = new List<string>();
             List<string> MixtedCaseWords = new List<string>();
 
-
-            //65-90
-            //97-122
             foreach (var word in words)
             {
                 int countL = 0;
@@ -59,49 +63,3 @@ namespace SplitByWordsCasing
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  foreach (char letter in word)
-                {
-
-                    if (char.IsUpper(letter))
-                    {
-                        countU++;
-                    }
-                    else if (char.IsLower(letter))
-                    {
-                        countL++;
-                    }
-                    else
-                    {
-                        countM++;
-                    }
-                }
-
-                if (words.Length == countL)
-                {
-                    LowCaseWords.Add(words);
-                }
-                else if (words.Length == countU)
-                {
-                    UpCaseWords.Add(words);
-                }
-                else 
-                {
-                    MixtedCaseWords.Add(words);
-                }
-            }
-*/
