@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Write a program to read n integers and print their sum, min, max, first, last and average values.
+
 namespace SumMinMaxAverage
 {
     class Program
