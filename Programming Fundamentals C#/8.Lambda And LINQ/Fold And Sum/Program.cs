@@ -4,6 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Read an array of 4*k integers, fold it like shown below, and print the sum of the upper and lower rows (2*k integers):
+//Hints
+/*Use a LINQ expression:
+•	Row 1, left part: take the first k numbers and reverse.
+•	Row 1, right part: reverse and take the first k numbers.
+•	Concatenate the left and the right part of row 1.
+•	Row 2: skip the first k numbers and take the next 2*k numbers.
+•	Sum the arrays row1 and row2: var sum = row1.Select((x, index) => x + row2[index]).*/
+
+
+
 namespace FoldAndSum
 {
     class Program
