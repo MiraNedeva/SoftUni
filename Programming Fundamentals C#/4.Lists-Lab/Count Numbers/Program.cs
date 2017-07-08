@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Read a list of integers in range [0…1000] and print them in ascending order along with their number of occurrences.*/
+
 namespace CountNumbers
 {
     class Program
