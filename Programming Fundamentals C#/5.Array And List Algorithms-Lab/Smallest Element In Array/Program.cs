@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Read a list of integers on the first line of the console. After that, find the smallest element in the array and print it on the console.*/
+
 namespace SmallestElementInArray
 {
     class Program
