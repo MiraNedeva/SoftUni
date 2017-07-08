@@ -15,7 +15,7 @@ namespace InsertionSortUsingList
         {
             var numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
-            Array.Sort(numbers); // List -> numbers.Sort();
+            Array.Sort(numbers); 
 
             Console.WriteLine(string.Join(" ", numbers));
         }
