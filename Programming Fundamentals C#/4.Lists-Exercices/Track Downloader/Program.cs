@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* You will receive a list of blacklisted words (on the same line, separated by one space). On the next lines, you will start receiving a
+list of filenames (as strings) until you receive the string “end”. Your task is to add the filenames to a list and sort them. Ignore the
+tracks which contain the text in the blacklist.*/
+
 namespace TrackDownloader
 {
     class Program
