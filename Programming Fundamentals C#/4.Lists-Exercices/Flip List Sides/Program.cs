@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* You will receive an integer list on the first line of the input (space-separated). Leave the first, middle and last elements as they are.
+For every other element, exchange it with its opposite indexed element (list[1]  list[length-2] and so on…). After that, print the list
+on the console (space-separated).
+Note: If the list has an even number of elements, as there is no middle element, flip all the elements except for the first and last ones.*/
+
 namespace FlipListSides
 {
     class Program
@@ -34,7 +39,6 @@ namespace FlipListSides
                 outputNumbers.Insert(0, firstElement);
                 outputNumbers.Insert(outputNumbers.Count / 2, middleElement);
                 outputNumbers.Add(lastElement);
-
 
             }
             else
