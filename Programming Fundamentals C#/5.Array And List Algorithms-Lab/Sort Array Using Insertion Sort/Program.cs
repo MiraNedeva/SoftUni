@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Read a list of integers on the first line of the console. After that, sort the array, using the Insertion Sort algorithm.*/
+
 namespace SortArrayUsingInsertionSort
 {
     class Program
