@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Read a list of integers on the first line of the console. On the next line, you will receive an integer N. After that, 
+find and print the largest N elements the array, sorted in descending order.*/
+
 namespace LargestNElements
 {
     class Program
