@@ -4,6 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* The city is breaking down on a camel back. You will receive a sequence of N integers, (space-separated), which will represent the buildings
+in the city.  You will then receive an integer M, indicating the camel back's size. 
+The camel back is a linear structure standing below the city, in such a way that it has an equal amount of buildings to its left and right.
+The idea is, if every round – one building falls from the left side of the city, and one from the right side, how many rounds will it 
+take for the city to stop breaking down?
+As output you must print how many rounds it took before the city stopped breaking down as “{rounds} rounds”. On the next line, print what’s 
+left of the city (space-separated). Format: “remaining: {buildings (space-separated)}”
+If no buildings have fallen, print “already stable: {buildings (space-separated)}”
+Example: city with 9 elements; Camel back size: 5
+Constraints: N and M will always be odd numbers. [1-1000] and M will always be smaller or equal to N.
+Exemple:    Input	                 Output
+12 45 61 34 21 345 62 11 94          2 rounds
+5                                    remaining: 61 34 21 345 62
+
+9 8 7 8 2                            already stable: 9 8 7 8 2
+5	*/
+
 namespace CamelsBack
 {
     class Program
