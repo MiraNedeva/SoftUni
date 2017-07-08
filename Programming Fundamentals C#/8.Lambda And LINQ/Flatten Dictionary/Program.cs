@@ -4,6 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*You will be given several input lines containing info about a key, an inner key and inner value, separated by a SPACE.
+Your task is to store every inner key and inner value, in every key’s value. Check the Examples for more info.
+If you receive the command “flatten {key}”, you must flatten all the inner keys and inner values at the given key, or in other words, CONCATENATE them.
+When you receive the command “end” the input ends. You must print all keys and their inner-keys and inner-values. Flattened inner keys and inner values, must be printed AFTER all else.
+The keys must be printed in descending order of their length. 
+All inner-keys must be printed in ascending order of their length.
+Flattened Values must be printed in order of input.
+The format of printing is:                   Flattened values should be printed like this         
+{key}                                        {key}
+1. {innerKey} – {innerValue}                 . . .         
+2. {innerKey} – {innerValue}                 x. {flattenedValue}          
+3. {innerKey} – {innerValue}                 (x+1). {innerKey} – {innerValue}
+. . .                                        . . .
+
+If you receive an inner key that already exists, replace its value with the new given one. */
+
 namespace FlattenDictionary
 {
     class Program
