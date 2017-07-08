@@ -4,6 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* In music, certain frequencies correspond to certain musical notes (example: A -> 440hz, C# -> 554.37hz). 
+You will be given frequencies as real numbers on the first line of the input (space-separated). Your task is to convert the numbers to 
+their musical note representation, then separate them into naturals (C, B, F and etc.) and sharp notes (C#, F#, A#, etc.). After that, 
+print both lists in the console in the format described in the examples. After you print them, sum each list’s frequencies and print it 
+on the console, rounded to the second decimal place. */
+
 namespace NoteStatistics
 {
     class Program
