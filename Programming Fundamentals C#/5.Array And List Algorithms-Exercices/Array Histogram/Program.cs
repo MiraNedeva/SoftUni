@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /* You will be given a string array on the console (single line, space-separated). Your task is to make statistics about the elements of the array. Find out how many times each word occurs in the array. After which, sort the result by the count of occurrences in descending order and print statistics about every word in the following format:
-{word} -> {count} times ({percentage:F2}%) */
+{word} -> {count} times ({percentage:F2}%)  */
 
 namespace ArrayHistogram
 {
