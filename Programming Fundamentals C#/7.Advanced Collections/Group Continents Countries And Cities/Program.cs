@@ -4,6 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Write a program, which receives continents, countries and city names and prints them, grouped by continent, country and city,
+all in alphabetical order. No duplicates are allowed.
+Hints
+•	Since everything needs to be sorted and unique, you can use a SortedDictionary<string, SortedDictionary<string, SortedSet<string>>>. That way, since we’re using dictionaries, we won’t have any duplicated continents or countries.
+•	By using a SortedSet to store the city names, we ensure we won’t have any repeating cities. Since everything is sorted, the alphabetical order is taken care of. */
+
 namespace GroupContinentsCountriesAndCities
 {
     class Program
