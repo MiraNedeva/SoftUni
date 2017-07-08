@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* You will be given a single string, containing random ASCII character. 
+Your task is to print every character, and how many times it has been used in the string.*/
+
 namespace LetterRepetition
 {
     class Program
