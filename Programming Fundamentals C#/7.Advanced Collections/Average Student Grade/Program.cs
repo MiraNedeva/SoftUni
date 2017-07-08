@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/* Write a program, which reads the name of a student and their grades and adds them to the student record, then prints grades along with their average grade.*/
+
 namespace AverageStudentGrade
 {
     class Program
