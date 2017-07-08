@@ -4,6 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* You will be given several key-value pairs in the following format: {key} -> {value}
+Your task is to store all those pairs, until you receive the command “end”. When you receive the ending command, you must read one last line, containing the default value. Then you must change all values, which are equal to “null” with the given default value.
+At the end you must print all key-value pairs, which have NOT been replaced with the default value, in descending order, by their value’s length. 
+After them, you must print all key-value pairs which HAVE been replaced with the default value, in order of input.
+Each key-value pair, must be printed in the following format: {key} <-> {value}
+All variables in the program logic are strings.
+Note: If you receive the same key twice or more times, you should update its value everytime.*/
+
 namespace DefaultValues
 {
     class Program
