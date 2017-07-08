@@ -4,6 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* You have been tasked to create a Console Social Media Database.
+You will receive several input lines in one of the following formats:
+•	post {postName}
+•	like {postName}
+•	dislike {postName}
+•	comment {postName} {commentatorName} {content}
+If you receive the post command, you must create a post with the given name.
+If you receive the like command you must add a like to the given post.
+If you receive the dislike command you must add a dislike to the given post.
+If you receive the comment command, you must add a comment to the given post. The comment’s writer must be the given commentator name,
+and the content of the comment must be the given content.
+By default the posts have 0 likes, 0 dislikes and 0 comments, when created.
+When you receive the command “drop the media” you must end the input sequence, and you must print every post with its likes, 
+disliked and comments in the following format:
+Post: {postName} | Likes: {likes} | Dislikes {dislikes}
+Comments:
+*  {commentator1}: {comment1}
+*  {commentator2}: {comment2}
+. . .  
+If a certain post does NOT have ANY comments, you should just print “None”.The comments have a prefix of a single asterisk (‘*’) and 2 spaces.
+There is NO space between the commentator’s name and the colon.
+Constraints
+•	The post name will be a string of letters and digits.
+•	The commentator’s name will be a string of letters.
+•	The comment’s CONTENT, may contain ANY ASCII character.
+•	There will be NO invalid input data. */
+
 namespace SocialMediaPosts
 {
     class Program
