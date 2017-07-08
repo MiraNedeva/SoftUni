@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Read a list of integers and extract all square numbers from it and print them in descending order. A square number is an integer
+which is the square of any integer. For example, 1, 4, 9, 16 are square numbers.*/
+
 namespace SquareNumbers
 {
     class Program
