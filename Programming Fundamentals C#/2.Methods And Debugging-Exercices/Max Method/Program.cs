@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Create a method GetMax(int a, int b), that returns maximal of two numbers. Write a program that reads three numbers from
+the console and prints the biggest of them. Use the GetMax(…) method you just created.*/
+
 namespace MaxMethod
 {
     class Program

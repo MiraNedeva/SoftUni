@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Write a Boolean method IsPrime(n) that check whether a given integer number n is prime. */
+
 namespace PrimeChecker
 {
     class Program

@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* You are given a date in format day-month-year. Calculate and print the day of week in English.*/
+
 namespace DayOfWeek
 {
     class Program

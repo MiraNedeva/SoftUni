@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Write a method that prints the digits of a given decimal number in a reversed order.*/
+
 namespace NumbersInReversedOrder
 {
     class Program

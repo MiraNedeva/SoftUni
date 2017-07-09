@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* You are given a list of words in one line. Randomize their order and print each word at a separate line.*/
+
 namespace RandomizeWords
 {
     class Program

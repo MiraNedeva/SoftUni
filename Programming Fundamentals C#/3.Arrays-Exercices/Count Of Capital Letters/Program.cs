@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/* Read an array of strings and find out how many of them are capital English letters (such as A, B, C etc.). 
+Print the count on the console.*/
+
 namespace CountOfCapitalLetters
 {
     class Program

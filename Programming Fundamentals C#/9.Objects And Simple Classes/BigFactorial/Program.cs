@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Numerics;
 
+/* Calculate and print n! (n factorial) for very big integer n (e.g. 1000).*/
+
 namespace BigFactorial
 {
     class Program

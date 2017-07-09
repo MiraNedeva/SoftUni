@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*Write a method that returns the English name of the last digit of a given number. Write a program that reads an integer 
+and prints the returned value from this method. */
+
 namespace EnglishNameOfLastDigit
 {
     class Program
@@ -26,13 +29,11 @@ namespace EnglishNameOfLastDigit
                 case 8: Console.WriteLine("eight"); break;
                 case 9: Console.WriteLine("nine"); break;
 
-
                 default:
                     break;
             }
 
         } 
-
         static long NameOfTheLastDigit (long n)
         {
             long lastDigit = n % 10;

@@ -4,6 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* You are the anti-aircraft operator, trying to shoot down the airplane from the previous problem. You’ll be given 
+instructions to get to the current coordinates of the plane. Shoot it down.
+You will be given an array which holds 2 numbers – the target X and Y coordinates of the plane.
+Afterwards, you will be given a second array, which holds a sequence of left / right / up / down commands and numbers. 
+We start at position {x=0, y=0}. Manipulate the firing position in the following way:
+•	Up increases y by the next number.
+•	Down decreases y by the next number.
+•	Left decreases x by the next number.
+•	Right increases x by the next number.
+After you process all the commands, print “firing at [{x}, {y}]”. After that, check if the firing position coordinates line
+ up with the target coordinates. If they do, print “got 'em!”. If not – print “better luck next time...”
+*/
+
 namespace BallisticsTraining
 {
     class Program

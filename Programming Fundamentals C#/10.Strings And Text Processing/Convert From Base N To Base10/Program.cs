@@ -5,6 +5,10 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Write a program that takes a base-N number and converts it to a base-10 number (0 to 1050), where 2 <= N <= 10.
+The input consists of 1 line containing two numbers separated by a single space. The first number is the base N to which you have to convert. The second one is the base N number to be converted. 
+Do not use any built in converting functionality, try to write your own algorithm.*/
+
 namespace ConvertFromBaseNToBase10
 {
     class Program
